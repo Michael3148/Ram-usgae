@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Border color and width -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF0000" /> <!-- red border, change color as needed -->
+
+    <!-- Background color -->
+    <solid android:color="#FFFFFF"/> <!-- white background, optional -->
+
+    <!-- Corner radius for curve -->
+    <corners android:radius="20dp"/> <!-- adjust the dp value for more/less curve -->
+</shape>
